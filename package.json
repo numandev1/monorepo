@@ -1,5 +1,6 @@
 {
   "name": "monorepo",
+  "private": true,
   "version": "1.0.0",
   "description": "Made with expo-library",
   "author": "nomi9995",
@@ -19,5 +20,8 @@
   "devDependencies": {
     "react": "16.12.0",
     "react-native": "0.61.5"
-  }
+  },
+  "workspaces":[
+    "example/**"
+  ]
 }
